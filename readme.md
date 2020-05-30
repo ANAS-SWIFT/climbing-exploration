@@ -4,7 +4,7 @@
 
 > potential error
 
-- Change the "graphe.txt" file path in the main foler
+- Change the "graphe.txt" file path in the main.cpp file
 
 ```C++
 char nomFe [150] = "/Users/mac/Desktop/Study/myS8/Intelligence Artificielle/PART2/Escalade/Escalade/graphe.txt";
