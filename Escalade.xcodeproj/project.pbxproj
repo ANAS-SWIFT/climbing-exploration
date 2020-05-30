@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		040CD3B22482949800A68AB5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 040CD3B12482949800A68AB5 /* main.cpp */; };
+		040CD3BB2482950F00A68AB5 /* graphemat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 040CD3B92482950F00A68AB5 /* graphemat.cpp */; };
+		040CD3BD2482954C00A68AB5 /* liregraphe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 040CD3BC2482954C00A68AB5 /* liregraphe.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		040CD3AE2482949800A68AB5 /* Escalade */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Escalade; sourceTree = BUILT_PRODUCTS_DIR; };
 		040CD3B12482949800A68AB5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		040CD3B8248294E700A68AB5 /* liregraphe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = liregraphe.h; sourceTree = "<group>"; };
+		040CD3B92482950F00A68AB5 /* graphemat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = graphemat.cpp; sourceTree = "<group>"; };
+		040CD3BC2482954C00A68AB5 /* liregraphe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = liregraphe.cpp; sourceTree = "<group>"; };
+		040CD3BE2482957B00A68AB5 /* graphemat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graphemat.h; sourceTree = "<group>"; };
+		040CD3BF2482959900A68AB5 /* graphe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = graphe.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				040CD3B12482949800A68AB5 /* main.cpp */,
+				040CD3BF2482959900A68AB5 /* graphe.txt */,
+				040CD3BE2482957B00A68AB5 /* graphemat.h */,
+				040CD3B8248294E700A68AB5 /* liregraphe.h */,
+				040CD3B92482950F00A68AB5 /* graphemat.cpp */,
+				040CD3BC2482954C00A68AB5 /* liregraphe.cpp */,
 			);
 			path = Escalade;
 			sourceTree = "<group>";
@@ -120,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				040CD3B22482949800A68AB5 /* main.cpp in Sources */,
+				040CD3BD2482954C00A68AB5 /* liregraphe.cpp in Sources */,
+				040CD3BB2482950F00A68AB5 /* graphemat.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
